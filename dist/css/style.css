@@ -1049,7 +1049,7 @@ label {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 500px;
+	min-height: 850px;
 	background: #000;
 	background-image: linear-gradient(
 			30deg,
@@ -1103,10 +1103,11 @@ label {
 }
 .hero-media {
 	position: relative;
-	height: 200px;
+	height: 400px;
 	margin-top: 40px;
-	background: #fff;
+	/* background: #fff; */
 	border-radius: 4px 4px 0 0;
+	box-shadow: 0 16px 48px rgba(229, 9, 20, 0.2);
 }
 .hero-media::before {
 	content: "";
@@ -1115,8 +1116,16 @@ label {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	box-shadow: 0 16px 48px #e50914;
+	box-shadow: 0 16px 48px rgba(229, 9, 20, 0.4);
 	mix-blend-mode: multiply;
+}
+.hero-media--video {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
 }
 @supports (-ms-ime-align: auto) {
 	.hero-media::before {
