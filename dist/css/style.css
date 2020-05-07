@@ -1197,7 +1197,7 @@ label {
 .feature-inner {
 	position: relative;
 	height: 100%;
-	background: #fff;
+	background: #191414;
 	padding: 40px 24px;
 }
 .feature-inner::before {
@@ -1207,7 +1207,7 @@ label {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	box-shadow: 0 16px 48px #e3e7eb;
+	box-shadow: 0 16px 48px rgba(229, 9, 20, 0.4);
 	mix-blend-mode: multiply;
 }
 @supports (-ms-ime-align: auto) {
